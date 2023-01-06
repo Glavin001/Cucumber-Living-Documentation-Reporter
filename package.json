@@ -1,0 +1,33 @@
+{
+  "name": "cucumber-living-documentation-reporter-root",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Generate Living Documentation in HTML from Cucumber JSON reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glavin001/Cucumber-Living-Documentation-Reporter.git"
+  },
+  "keywords": [
+    "cucumber",
+    "living",
+    "docs",
+    "living",
+    "documentation",
+    "documentation",
+    "reporter",
+    "cypress"
+  ],
+  "author": "Glavin Wiechert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Glavin001/Cucumber-Living-Documentation-Reporter/issues"
+  },
+  "homepage": "https://github.com/Glavin001/Cucumber-Living-Documentation-Reporter#readme",
+  "dependencies": {
+  },
+  "workspaces": ["packages/*"]
+}
