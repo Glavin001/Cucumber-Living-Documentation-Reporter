@@ -10,19 +10,25 @@
     "cypress": "cypress open",
     "cypress:headless": "cypress run",
     "e2e": "start-server-and-test dev http://localhost:3000 cypress",
-    "e2e:headless": "start-server-and-test dev http://localhost:3000 cypress:headless"
+    "e2e:headless": "start-server-and-test dev http://localhost:3000 cypress:headless",
+    "e2e:cucumber:json": "cat cucumber-messages.ndjson | cucumber-json-formatter > cucumber-results.json",
+    "docs": "CYPRESS_NO_COMMAND_LOG=1 yarn cypress:headless && yarn e2e:cucumber:json"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "12.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
+    "@cypress/webpack-preprocessor": "^5.16.1",
     "@types/node": "18.0.6",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "cypress": "10.3.1",
     "start-server-and-test": "1.14.0",
-    "typescript": "4.7.4"
+    "ts-loader": "^9.4.2",
+    "typescript": "4.7.4",
+    "webpack": "^5.75.0"
   }
 }

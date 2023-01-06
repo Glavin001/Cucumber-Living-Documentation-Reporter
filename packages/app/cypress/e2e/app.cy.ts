@@ -17,6 +17,19 @@ describe('Navigation', () => {
     // The new page should contain an h1 with "About page"
     cy.get('h1').contains('About Page')
   })
+  it('should navigate to the documentation page', () => {
+    // Start from the index page
+    cy.visit('http://localhost:3000/')
+
+    // Find a link with an href attribute containing "about" and click it
+    cy.get('a[href*="https://nextjs.org/docs"]').click()
+
+    // The new url should include "/about"
+    cy.url().should('include', 'https://nextjs.org/docs')
+
+    // The new page should contain an h1 with "About page"
+    cy.get('h1').contains('Getting Started')
+  })
 })
 
 // Prevent TypeScript from reading file as legacy script

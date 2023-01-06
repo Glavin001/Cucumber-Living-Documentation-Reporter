@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Cypress outputs
+cypress/videos/
+cypress/screenshots/
+packages/app/cucumber-messages.ndjson
+packages/app/cucumber-report.json
+packages/app/cucumber-results.json
+!**/.gitkeep
