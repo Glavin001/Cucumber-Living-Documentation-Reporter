@@ -1,6 +1,7 @@
 {
   "name": "cucumber-living-documentation-reporter",
-  "private": true,
+  "version": "0.1.0",
+  "description": "Generate Living Documentation in HTML from Cucumber JSON reports",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
