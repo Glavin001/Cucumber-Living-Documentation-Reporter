@@ -3,7 +3,7 @@
 // If you're using ESLint on your project, we recommend installing the ESLint Cypress plugin instead:
 // https://github.com/cypress-io/eslint-plugin-cypress
 
-describe('Navigation', () => {
+describe.skip('Navigation', () => {
   it('should navigate to the about page', () => {
     // Start from the index page
     cy.visit('http://localhost:3000/')

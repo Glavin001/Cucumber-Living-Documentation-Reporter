@@ -1,0 +1,428 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-verification---express-tier;successfully-apply-for-express-tier",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Successfully apply for Express Tier",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is signed up with US personal account",
+            "result": {
+              "duration": 30517000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "user is on express verification page",
+            "result": {
+              "duration": 14458000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "user submits verification form",
+            "result": {
+              "duration": 9343000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user sees successful verification message",
+            "result": {
+              "duration": 11122000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "user clicks on continue button",
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user is redirected to Instant page",
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 12,
+            "name": "user goes to verify page",
+            "result": {
+              "duration": 12788000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user sees tier table as:",
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "tier",
+                  "state",
+                  "buttonText"
+                ]
+              },
+              {
+                "cells": [
+                  "express",
+                  "disabled",
+                  "Verified"
+                ]
+              },
+              {
+                "cells": [
+                  "intermediate",
+                  "enabled",
+                  "Verify"
+                ]
+              },
+              {
+                "cells": [
+                  "pro",
+                  "disabled",
+                  "Requires Intermediate"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@onboarding-tests"
+          },
+          {
+            "line": 1,
+            "name": "@regression-tests"
+          },
+          {
+            "line": 1,
+            "name": "@pop-ups-disabled"
+          },
+          {
+            "line": 1,
+            "name": "@pro-beta-modal-disabled"
+          },
+          {
+            "line": 1,
+            "name": "@tos-update-pop-up-disabled"
+          },
+          {
+            "line": 4,
+            "name": "@C50904"
+          },
+          {
+            "line": 4,
+            "name": "@focus"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "user-verification---express-tier;user-is-redirected-to-intermediate-flow-after-failing-express-verification",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "User is redirected to Intermediate flow after failing Express verification",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 21,
+            "name": "user is signed up with fake US personal account",
+            "result": {
+              "duration": 28061000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 22,
+            "name": "user is on express verification page",
+            "result": {
+              "duration": 13469000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 23,
+            "name": "user submits verification form",
+            "result": {
+              "duration": 8962000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user is asked for more verification information",
+            "result": {
+              "duration": 5145000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 25,
+            "name": "user closes verification flow",
+            "result": {
+              "duration": 272000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 26,
+            "name": "user is redirected to Verify page",
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 27,
+            "name": "user sees tier table as:",
+            "result": {
+              "duration": 3416000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "tier",
+                  "state",
+                  "buttonText"
+                ]
+              },
+              {
+                "cells": [
+                  "express",
+                  "disabled",
+                  "More info required"
+                ]
+              },
+              {
+                "cells": [
+                  "intermediate",
+                  "enabled",
+                  "Verify"
+                ]
+              },
+              {
+                "cells": [
+                  "pro",
+                  "disabled",
+                  "Requires Intermediate"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "line": 32,
+            "name": "print user login credentials",
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@onboarding-tests"
+          },
+          {
+            "line": 1,
+            "name": "@regression-tests"
+          },
+          {
+            "line": 1,
+            "name": "@pop-ups-disabled"
+          },
+          {
+            "line": 1,
+            "name": "@pro-beta-modal-disabled"
+          },
+          {
+            "line": 1,
+            "name": "@tos-update-pop-up-disabled"
+          },
+          {
+            "line": 19,
+            "name": "@C50888"
+          },
+          {
+            "line": 19,
+            "name": "@pre-prod"
+          },
+          {
+            "line": 19,
+            "name": "@focus"
+          }
+        ]
+      }
+    ],
+    "id": "user-verification---express-tier",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "User verification - Express tier",
+    "uri": "cypress/integration/e2e/onboarding/expressTier.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@onboarding-tests"
+      },
+      {
+        "line": 1,
+        "name": "@regression-tests"
+      },
+      {
+        "line": 1,
+        "name": "@pop-ups-disabled"
+      },
+      {
+        "line": 1,
+        "name": "@pro-beta-modal-disabled"
+      },
+      {
+        "line": 1,
+        "name": "@tos-update-pop-up-disabled"
+      }
+    ]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "duckduckgo.com;visiting-the-frontpage",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "visiting the frontpage",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 3,
+            "name": "I visit duckduckgo.com",
+            "result": {
+              "duration": 1553000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I should see a search bar",
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "duckduckgo.com",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "duckduckgo.com",
+    "uri": "cypress/e2e/duckduckgo.feature"
+  },
+  {
+    "description": "  I want to open Google page",
+    "elements": [
+      {
+        "description": "",
+        "id": "the-google;opening-a-google-network-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Opening a Google network page",
+        "before": [
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Google page",
+            "result": {
+              "duration": 1899000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see \"Google\" in the title",
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "the-google;different-kind-of-opening",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Different kind of opening",
+        "before": [
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I kinda open Google page",
+            "result": {
+              "duration": 1426000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I am very happy",
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "the-google",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "The Google",
+    "uri": "cypress/e2e/integration/news/Google.feature"
+  },
+  {
+    "description": "  I want to open a social network page",
+    "elements": [
+      {
+        "description": "",
+        "id": "the-facebook;opening-a-social-network-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Opening a social network page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open Facebook page",
+            "result": {
+              "duration": 1233000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see \"Facebook\" in the title",
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@feature-tag"
+          },
+          {
+            "line": 6,
+            "name": "@tag-to-include"
+          }
+        ]
+      },
+      {
+        "description": "",
+        "id": "the-facebook;different-kind-of-opening",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Different kind of opening",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I kinda open Facebook page",
+            "result": {
+              "duration": 943000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I am very happy",
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@feature-tag"
+          },
+          {
+            "line": 11,
+            "name": "@another-tag-to-include"
+          },
+          {
+            "line": 11,
+            "name": "@some-other-tag"
+          }
+        ]
+      }
+    ],
+    "id": "the-facebook",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "The Facebook",
+    "uri": "cypress/e2e/integration/socialNetworks/Facebook.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@feature-tag"
+      }
+    ]
+  }
+]
